@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+    <title>Geschichte des Internets (2010-2015) - Leonie Schuchardt</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Leonie Schuchardt">
+    <meta name="Seitennummer" content="X">
+{"path":"/tauri/Users/leonie/Documents/GitHub/Internet-Netzwerk-Projekt/Internet-Netzwerk-Projekt/HomePage/"}</head>
+
+<body>
+    <header>
+        <a href="index.html">Websitetitel</a>
+        <nav>
+            <button>Menü</button>
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="geschichte1.html">1. Geschichte 1</a></li>
+                <li><a href="geschichte2.html">2. Geschichte 2</a></li>
+                <li><a href="geschichte3.html">3. Geschichte 3</a></li>
+                <li><a href="geschichte4.html">4. Geschichte 4</a></li>
+                <li><a href="geschichte5.html">5. Geschichte 5</a></li>
+                <li><a href="geschichte6.html">6. Geschichte 6</a></li>
+                <li><a href="geschichte7.html">7. Geschichte 7</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="titel">
+        <h1>Die Geschichte des Internets (2010-2015)</h1>
+        <h2>Verfasser*in: Leonie Schuchardt (Stand: 15.11.2025)</h2>
+        <a href="Link zur vorherigen Seite">Zurück</a>
+        <a href="Link zur nächsten Seite">Weiter</a>
+        <nav>
+            <ol>
+                <li><a href="geschichte1.html">Geschichte 1</a></li>
+                <li><a href="geschichte2.html">Geschichte 2</a></li>
+                <li><a href="geschichte3.html">Geschichte 3</a></li>
+                <li><a href="geschichte4.html">Geschichte 4</a></li>
+                <li><a href="geschichte5.html">Geschichte 5</a></li>
+                <li><a href="geschichte6.html">Geschichte 6</a></li>
+                <li><a href="geschichte7.html">Geschichte 7</a></li>
+            </ol>
+        </nav>
+    </div>
+
+    <article>
+        <div class="section">
+            <h3>Der Aufstieg des mobilen Internets</h3>
+            <p>Zu Beginn des Jahrzehnts war das Internet längst ein fester Bestandteil des Alltagslebens.<br>
+               Im Jahr 2010 nutzten weltweit rund zwei Milliarden Menschen das Netz. Ein Zeichen dafür,<br>
+               dass das Internet zu einem globalen Kommunikations- und Informationsmedium geworden war.<br>
+               In Deutschland lag die Nutzungsrate laut Statistischem Bundesamt bereits bei etwa 72 % der Bevölkerung.<br>
+               Dennoch erfolgte der Großteil der Zugriffe zu dieser Zeit noch über stationäre Computer.</p>
+            
+            <p>Zwar war die Infrastruktur für mobiles Internet bereits im Aufbau, doch spielte sie zunächst eine untergeordnete Rolle.<br>
+               Rund 90 % der Weltbevölkerung hatten 2010 Zugang zu Mobilfunknetzen, in Deutschland waren es rund 77 %.<br>
+               Erste Anzeichen eines Wandels wurden sichtbar: Menschen begannen, sich nicht mehr nur am Schreibtisch,<br>
+               sondern auch unterwegs zu vernetzen. Der Grundstein für den Siegeszug des mobilen Internets.</p>
+               
+            <nav>
+                <button>Quellen</button>
+                <ul>
+                    <li><a href="Link Quelle 1">Quelle 1</a></li>
+                    <li><a href="Link Quelle 2">Quelle 2</a></li>
+                    <li><a href="Link Quelle 3">Quelle 3</a></li>
+                </ul>
+            </nav>
+            <img src="Link zum Bild">
+        </div>
+
+        <div class="section">
+            <h3>Heading</h3>
+            <p>Paragraph</p>
+            <nav>
+                <button>Quellen</button>
+                <ul>
+                    <li><a href="Link Quelle 1">Quelle 1</a></li>
+                    <li><a href="Link Quelle 2">Quelle 2</a></li>
+                    <li><a href="Link Quelle 3">Quelle 3</a></li>
+                </ul>
+            </nav>
+            <img src="Link zum Bild">
+        </div>
+
+        <div class="section">
+            <h3>2011-2012: Der Durchbruch der Smartphones</h3>
+            <p>In den Jahren 2011 und 2012 beschleunigte sich diese Entwicklung erheblich.<br>
+               Smartphones verbreiteten sich rasant und ermöglichten erstmals ein komfortables Surfen,<br>
+               Kommunizieren und Einkaufen von unterwegs. Die Geräte vereinten Funktionen,<br>
+               die zuvor auf mehrere Geräte verteilt waren (Telefon, Kamera, Musikplayer und Internetzugang)<br>
+               und machten damit das mobile Internet massentauglich.</p>
+               
+            <p>Laut Destatis nutzten 2012 bereits 59 % der 16- bis 24-Jährigen in Deutschland regelmäßig das mobile Internet,<br>
+               rund 60 % davon sogar täglich über ihr Smartphone. Parallel dazu nahm die Nutzung sozialer Netzwerke,<br>
+               Video-Streaming-Dienste und mobiler Shopping-Plattformen stark zu. Plattformen wie Facebook, Twitter und YouTube<br>
+               wurden zunehmend mobil genutzt. Ein klarer Hinweis darauf, dass sich die digitale Kommunikation von stationären Geräten<br>
+               auf mobile Endgeräte verlagerte.</p>
+               
+            <p>Ein weiterer Treiber war die zunehmende Verfügbarkeit schnellerer mobiler Datenverbindungen.<br>
+               Die Einführung der dritten Mobilfunkgeneration (3G/UMTS) machte datenintensive Anwendungen wie Video-Streaming<br>
+               oder Messaging-Dienste erstmals praktikabel. Gleichzeitig fielen die Preise für Datenvolumen, wodurch mobile Nutzung attraktiver wurde.</p>
+               
+            <nav>
+                <button>Quellen</button>
+                <ul>
+                    <li><a href="Link Quelle 1">Quelle 1</a></li>
+                    <li><a href="Link Quelle 2">Quelle 2</a></li>
+                    <li><a href="Link Quelle 3">Quelle 3</a></li>
+                </ul>
+            </nav>
+            <img src="Link zum Bild">
+        </div>
+        
+        <div class="section">
+            <h3>2013-2014: Das mobile Internet wird zum Standardzugang</h3>
+            <p>In den Jahren 2013 und 2014 veränderte sich die Internetnutzung weltweit grundlegend. Der Anteil der mobilen Internetzugriffe<br>
+               stieg laut StatCounter von rund 17 % auf 28,5 %. Immer mehr Menschen griffen primär über Smartphones und Tablets auf das Netz zu.<br>
+               Weltweit waren 2013 bereits 2,73 Milliarden Menschen online. Ein Anstieg, der maßgeblich auf die Verbreitung mobiler Endgeräte zurückzuführen war.<br>
+               Das mobile Internet entwickelte sich zu einem vollwertigen Zugangskanal für Kommunikation, Information und Unterhaltung.</p>
+               
+            <p>Die Qualität der Netze stieg stetig, insbesondere durch den Ausbau von 4G/LTE. Diese Technologie bot wesentlich höhere Übertragungsraten<br>
+               und ermöglichte damit neue Nutzungsformen - von hochauflösenden Videostreams bis hin zu cloudbasierten Anwendungen.</p>
+               
+            <p>Unternehmen begannen, ihre digitalen Angebote für mobile Endgeräte zu optimieren. Webseiten wurden „responsive“, also so gestaltet,<br>
+               dass sie sich automatisch an unterschiedliche Bildschirmgrößen anpassten. Gleichzeitig entstanden spezialisierte Apps,<br>
+               die Nutzenden ein intuitives, auf das Smartphone zugeschnittenes Erlebnis boten. Dieser Trend markierte eine Zäsur in der Geschichte der Internetnutzung:<br>
+               Das Netz war nun nicht mehr an Ort oder Zeit gebunden.</p>
+               
+            <nav>
+                <button>Quellen</button>
+                <ul>
+                    <li><a href="Link Quelle 1">Quelle 1</a></li>
+                    <li><a href="Link Quelle 2">Quelle 2</a></li>
+                    <li><a href="Link Quelle 3">Quelle 3</a></li>
+                </ul>
+            </nav>
+            <img src="Link zum Bild">
+        </div>
+        
+        <div class="section">
+            <h3>2015: Das mobile Internet wird zur Norm</h3>
+            <p>Bis 2015 hatte sich das mobile Internet endgültig durchgesetzt. Laut dem State of Connectivity Report von Facebook waren weltweit bereits über 3,2 Milliarden Menschen online.<br>
+               In Deutschland lag die Internetnutzungsrate bei 77,6 %. Der mobile Zugang war längst kein Nischenphänomen mehr, sondern zur dominanten Form der Internetnutzung geworden.<br>
+               Besonders in Regionen mit schwacher stationärer Infrastruktur – etwa in Teilen Afrikas, Asiens oder Lateinamerikas – stellte das Smartphone häufig den einzigen Zugang zum Internet dar.<br>
+               Mobile Geräte ermöglichten es Milliarden von Menschen, erstmals an der digitalen Welt teilzuhaben: Sie boten Zugang zu Bildung, Finanzdienstleistungen, Kommunikation und politischer Teilhabe.</p>
+               
+            <p>In hochentwickelten Märkten wie Deutschland oder den USA veränderte sich gleichzeitig die Art und Weise, wie Menschen Informationen konsumierten. Medienhäuser und Plattformen<br>
+               passten ihre Inhalte zunehmend für mobile Nutzung an: kürzere Artikel, vertikale Videos und Apps mit Push-Benachrichtigungen prägten die neue Informationskultur. Unternehmen wie Google,<br>
+               Apple und Samsung investierten massiv in mobile Betriebssysteme, App-Stores und Cloud-Dienste, um die neue Nachfrage zu bedienen. Auch wirtschaftlich hatte der Wandel enorme Auswirkungen.<br>
+               Mobile Werbung wurde zu einem der wichtigsten Umsatztreiber der Digitalwirtschaft. 2015 stammten laut Smart Insights rund die Hälfte aller Online-Interaktionen von mobilen Endgeräten – ein Trend,<br>
+               der sich bis heute fortgesetzt hat.</p>
+               
+            <nav>
+                <button>Quellen</button>
+                <ul>
+                    <li><a href="Link Quelle 1">Quelle 1</a></li>
+                    <li><a href="Link Quelle 2">Quelle 2</a></li>
+                    <li><a href="Link Quelle 3">Quelle 3</a></li>
+                </ul>
+            </nav>
+            <img src="Link zum Bild">
+        </div>
+        
+        <div class="section">
+            <h3>Schlüsselfaktoren für den Aufstieg des mobilen Internets</h3>
+            <ol>
+                <li>Ausbau mobiler Netze: Die Einführung von 3G und 4G ermöglichte<br>
+                    schnellere und stabilere Datenübertragungen, was eine neue Generation von<br>
+                    Online-Diensten möglich machte.</li>
+                    
+                <li>Verbreitung von Smartphones: Immer günstigere und leistungsfähigere<br>
+                    Geräte machten das mobile Internet für breite Bevölkerungsschichten<br>
+                    zugänglich.</li>
+                
+                <li>Sinkende Datenpreise und technologische Verbesserungen: Durch<br>
+                    technische Fortschritte in Prozessorleistung, Akkulaufzeit und Netzabdeckung<br>
+                    wurde mobiles Surfen komfortabel und alltagstauglich.</li>
+                
+                <li>Substitution des stationären Zugangs: Besonders in Regionen mit<br>
+                    schwacher Festnetzabdeckung wurden Smartphones zur primären<br>
+                    Verbindung mit dem Internet.</li>
+                    
+                <li>Globale Reichweite: Das mobile Internet überwand soziale und geografische<br>
+                    Grenzen und ermöglichte digitale Teilhabe für Milliarden Menschen weltweit.</li>
+                    
+                <li>App-Ökosystemen: Apps z.B. für Unterhaltung (YouTube, Instagram, etc.)<br>
+                    haben den mobilen Wandel entscheidend mitgeprägt.</li>
+            </ol>
+        </div>
+        
+    </article>
+
+    <a href="Link zur vorherigen Seite">Zurück</a>
+    <a href="Link zur nächsten Seite">Weiter</a>
+
+    <footer>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" rel="noopener noreferrer">Impressum</a>
+    </footer>
+</body>
+</html>
