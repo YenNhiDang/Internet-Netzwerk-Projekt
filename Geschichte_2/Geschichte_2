@@ -28,7 +28,7 @@
 
     <section class="titel">
         <h1>Die Geschichte des Internets (1965-1988)</h1>
-        <h2>Marieke Eilers (Stand 16.11.2025)</h2>
+        <h2>Verfasser*in: Marieke Eilers (Stand 17.11.2025)</h2>
         <a href="Link zur vorherigen Seite">Zurück</a>
         <a href="Link zur nächsten Seite">Weiter</a>
         <nav>
@@ -64,8 +64,8 @@
 
         <section class="section">
             <h3>"Lo" - Die erste Übertragung</h3>
-            <p>Im Oktober 1969 fand die allererste Datenübertragung per Telefonleitung zwischen zwei Computern in Kalifornien statt. Realisiert wurde dies durch einen Studenten von Leonard Kleinrock an der University of California in Los Angeles und Bill Duvall, der rund 550km nördlich am Stanford Research Institute in der Nähe von San Francisco tätig war. 
-                Die erste jemals übertragene Nachricht besteht nur aus zwei Buchstaben: einem „L“ und einem „o“. Eigentlich sollte das Wort „Login“ übertragen werden. Doch noch bevor der dritte Buchstabe übertragen werden konnte,ch die Verbindung zu Duvall in San Francisco ab. Bereits einige Stunden später gelang jedoch die vollständige und fehlerfreie Übertragung des gesamten Worts. Infolgedessen wurden weitere US-amerikanische Universitäten und Behörden an das Netzwerk angeschlossen und verbunden.
+            <p>Im Oktober 1969 fand die allererste Datenübertragung per Telefonleitung zwischen zwei Computern in Kalifornien statt. Realisiert wurde dies durch einen Studenten von Leonard Kleinrock an der University of California in Los Angeles und Bill Duvall, der rund 550 km nördlich am Stanford Research Institute in der Nähe von San Francisco tätig war. 
+                Die erste jemals übertragene Nachricht besteht nur aus zwei Buchstaben: einem „L“ und einem „O“. Eigentlich sollte das Wort „Login“ übertragen werden. Doch noch bevor der dritte Buchstabe übertragen werden konnte,ch die Verbindung zu Duvall in San Francisco ab. Bereits einige Stunden später gelang jedoch die vollständige und fehlerfreie Übertragung des gesamten Worts. Infolgedessen wurden weitere US-amerikanische Universitäten und Behörden an das Netzwerk angeschlossen und verbunden.
 </p>
             <nav>
                 <button>Quellen</button>
@@ -82,7 +82,7 @@
             <h3>WLAN, E-Mail & Dateiübertragung</h3>
             <p>Den Grundstein für das heutige WLAN legte das ALOHA-Netzwerk der Universität Hawaii im Jahr 1971. Es sollte die Computer der Universität mit denen der Nebenstellen verknüpfen, jedoch nicht per Kabel, sondern durch Funk. Wenig später wurde das ALOHA-Netzwerk an das ARPAnet angeschlossen.
                 Ebenfalls im selben Jahr versendete der Ingenieur Ray Tomlinson die erste E-Mail über ein drei Meter langes Kabel zu einem benachbarten Computer. Um seinen Benutzernamen von der Computeradresse zu trennen, suchte er sich ein Sonderzeichen aus, welches von Programmierern und Entwicklern nur selten genutzt wurde: das „@“-Symbol.
-                Zwar war die Kommunikation zwischen zwei Computern nun möglich, doch Dateien konnten noch nicht übertragen werden. Dem widmete sich Abhay Bhushan. Nach einigen Überarbeitungen legte er im Jahr 1972 das „File Transfer Protocol“ (TFP) mit der RFC-Nummer 354 vor. Dabei handelt sich um ein Kommunikationsprotokoll, welches die Übertragung von Dateien zwischen unterschiedlichen Computersystemen ermöglicht. Es funktioniert nach dem Client-Server-Prinzip und bietet einen Server, welcher ähnlich wie ein Dateimanager zu bedienen ist. Der FTP-Server stellt dem FTP-Client Dateien zur Verfügung und dieser kann Dateien auf dem FTP-Server ablegen, herunterladen oder löschen.
+                Zwar war die Kommunikation zwischen zwei Computern nun möglich, doch Dateien konnten noch nicht übertragen werden. Dem widmete sich Abhay Bhushan. Nach einigen Überarbeitungen legte er im Jahr 1972 das „File Transfer Protocol“ (FTP) mit der RFC-Nummer 354 vor. Dabei handelt sich um ein Kommunikationsprotokoll, welches die Übertragung von Dateien zwischen unterschiedlichen Computersystemen ermöglicht. Es funktioniert nach dem Client-Server-Prinzip und bietet einen Server, welcher ähnlich wie ein Dateimanager zu bedienen ist. Der FTP-Server stellt dem FTP-Client Dateien zur Verfügung und dieser kann Dateien auf dem FTP-Server ablegen, herunterladen oder löschen.
 </p>
             <nav>
                 <button>Quellen</button>
@@ -120,7 +120,7 @@
             <h3>Die Verdrängung des ARPAnet</h3>
             <p>Am 1. Januar 1983 wurde das ARPAnet auf TCP/IP umgestellt. Es umfasst das „Transmission Control Protocol“ sowie das „Internet Protocol“ und bildet eine Protokoll-Familie für die Vermittlung und den Transport von Datenpaketen in einem dezentral organisierten und globalen Netzwerk. Das IP ergänzt die Datenübertragung (TCP) um IP-Adressen, an die die Daten weitergeleitet werden. Noch heute ist TCP/IP der Standard für eine schnelle und sichere Kommunikation zwischen zwei Geräten.
                 Im selben Jahr wurde das MILnet aus Sicherheitsgründen vom ARPAnet abgespalten. Es soll künftig ausschließlich als Netzwerk zum Verbinden von militärischen Einrichtungen dienen. Das ARPAnet war von da an rein wissenschaftlicher Natur. Beide Netze blieben zunächst durch Gateways, eine Art Vermittler, miteinander verbunden.
-                In den folgenden Jahren wird das MILnet zum Defense Data Network erweitert, einem weltweiten System sectionerser militärischer Netzwerke mit verschiedenen Sicherheitsstufen. Außerdem entstand das National Science Foundation net (NSFnet), ein Hochgeschwindigkeits-Wissenschaftsnetz einer Behörde der US-Regierung, welches fünf Super-Computer-Zentren miteinander verband. Um eine möglichst gute Ausnutzung dieser Zentren zu ermöglichen, reichten sie an die damaligen technischen Grenzen des Computing heran und waren extrem kostenintensiv. Zu Beginn wurde das NSFnet gefördert, um die Vernetzung von Forschung und Lehre in den Vereinigten Staaten zu stärken. Es wurden mehrere untergeordnete Netzwerke geschaffen, um dieses Projekt zu unterstützen. Durch zusätzliche öffentliche Mittel und Finanzierung aus der Privatwirtschaft wurde es zunehmend auf die weitere Auitung vorbereitet.
+                In den folgenden Jahren wird das MILnet zum Defense Data Network erweitert, einem weltweiten System sectionerser militärischer Netzwerke mit verschiedenen Sicherheitsstufen. Außerdem entstand das National Science Foundation net (NSFnet), ein Hochgeschwindigkeits-Wissenschaftsnetz einer Behörde der US-Regierung, welches fünf Super-Computer-Zentren miteinander verband. Um eine möglichst gute Ausnutzung dieser Zentren zu ermöglichen, reichten sie an die damaligen technischen Grenzen des Computings heran und waren extrem kostenintensiv. Zu Beginn wurde das NSFnet gefördert, um die Vernetzung von Forschung und Lehre in den Vereinigten Staaten zu stärken. Es wurden mehrere untergeordnete Netzwerke geschaffen, um dieses Projekt zu unterstützen. Durch zusätzliche öffentliche Mittel und Finanzierung aus der Privatwirtschaft wurde es zunehmend auf die weitere Auitung vorbereitet.
 </p>
             <nav>
                 <button>Quellen</button>
