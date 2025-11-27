@@ -44,8 +44,6 @@ body{
 
 p{
     margin-bottom: var(--text_margin-bottom);
-    margin-left: var(--text_margin-left);
-    margin-right: var(--text_margin-right);
 }
 
 section{
@@ -98,4 +96,21 @@ h6 {
 	letter-spacing: 0.1em;
 	line-height: 1.2353;
 	text-transform: uppercase;
+}
+
+/* ========================================
+ * Textumfluss
+ * =======================================*/
+
+.block {
+    display: flex;
+    justify-content: flex-start;
+    margin: 40px 200px;
+}
+.block.reverse{
+    justify-content: flex-end;
+}
+.block.text {
+    max-width: 600px;
+    text-align: justify;
 }
