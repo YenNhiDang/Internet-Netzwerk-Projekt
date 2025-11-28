@@ -6,18 +6,14 @@
     <meta charset="utf-8">
     <meta name="author" content="Minh Thi Bui">
     <meta name="Seitennummer" content="7">
-    <style type="text/css">
-        @import url('style.css');
-    </style>
+    <link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 
 <body>
     <header>
-        <!--Aus dem Link kann auch ein Header (h1) gemacht werden.-->
-        <a href="/index.html">Geschichte des Internets</a>
+        <h2><a href="/index.html">Geschichte des Internets</a></h2>
         <nav>
             <button>Menü</button>
-            <!--Warum ist da ein unordered und eine ordered List?-->
             <ul>
                 <li><a href="/index.html">Startseite</a></li>
                 <li><a href="/Geschichte_1/Geschichte_1.html">Frühphase des Internets (1957-1964)</a></li>
@@ -32,9 +28,12 @@
     </header>
     
     <section>
-        <h1>Digitalisierung, Künstliche Intelligenz und Internet of Things (2016-heute)</h1>
-        <h2>Von Minh Thi Bui</h2>
-        <a href="/Geschichte_6/Geschichte_6.html">Zurück</a>
+        <div class="page-nav">
+            <a class="prev" href="/Geschichte_6/Geschichte_6.html">← Zurück</a>
+            <h1>Digitalisierung, Künstliche Intelligenz und Internet of Things (2016-heute)</h1>
+            <span class="side placeholder" aria-hidden="true"></span>
+        </div>
+        <h2 class="center">Von Minh Thi Bui</h2>
         <nav>
             <ol>
                 <li><a href="/Geschichte_1/Geschichte_1.html">Frühphase des Internets (1957-1964)</a></li>
@@ -188,10 +187,17 @@
         </section>
     </article>
 
-    <a href="/Geschichte_6/Geschichte_6.html">Zurück</a>
+    <div class="page-nav">
+        <a class="prev" href="/Geschichte_6/Geschichte_6.html">← Zurück</a>
+        <span class="side placeholder" aria-hidden="true"></span>
+    </div>
 
     <footer>
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" rel="noopener noreferrer">Impressum</a>
+        <p> Hinweis: Diese Webseite wurde im Rahmen des Praktikums zum Modul
+            "Internet- und Mediennetzwerke" an der Hochschule Emden/Leer erstellt.
+            Alle Inhalte dienen ausschließlich zu Bildungszwecken.
+        </p>
     </footer>
 </body>
 </html>
