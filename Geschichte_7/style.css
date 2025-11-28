@@ -79,14 +79,14 @@ h5 {
 	font-size: 1.125rem;
 	letter-spacing: 0.1em;
 	line-height: 1.3333;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 h6 {
 	font-size: 1.0625rem;
 	letter-spacing: 0.1em;
 	line-height: 1.2353;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 /* === Links === */
@@ -190,8 +190,21 @@ button:active {
 }
 
 /* === Footer-Styling === */
-footer{
-    background-color:  #d8f0a8bf;  /* Hintergrundfarbe für den Footer definieren */
+footer {
+    background-color: #d8f0a8bf;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+footer a {
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+footer p {
+    max-width: 80ch;
+    margin: 0 auto;
+    font-size: 0.875rem;
 }
 
 /* === Allgemeine Hilfsklassen === */
