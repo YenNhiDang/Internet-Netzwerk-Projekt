@@ -34,8 +34,45 @@ h1,h2,h3,h4,h5,h6, p, li, span, div {
     font-family: var(--text_font);
 }
 
-header{
-    color: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #e3e3e3;
+    font-size: 25px;
+    margin: auto;
+}
+
+header a{
+    font-size: larger;
+    text-decoration: none;
+    text-align: left;
+}
+
+.site-title {
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.25s ease;
+}
+
+header nav a:hover {
+    color: #0077ff;
 }
 
 body{
@@ -71,6 +108,10 @@ nav ul {
  a {
     text-decoration: underline;
     color: inherit;
+}
+
+nav a:hover{
+    color: #0077ff;
 }
 
 button {
