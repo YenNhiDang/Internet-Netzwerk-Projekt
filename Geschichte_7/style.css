@@ -6,13 +6,11 @@
 
 
 /* === Globales Box-Modell === */
-
 html{
     box-sizing: border-box; /* Box-Sizing berücksichtigt Padding und Border in der Gesamtgröße */
 }
 
 /* === HTML und Body Grundeinstellungen === */
-
 html{
     font-size: 18px;    /* Grundlegende Schriftgröße für die Webseite */
     scroll-behavior: smooth; /* Optional: Sanftes Scrollen bei Anker-Links */
@@ -32,19 +30,24 @@ body{
     white-space: normal;
 
     /* Listeneinrückung: Zweite Zeile beginnt unter dem Text des ersten Listenpunkts */
-    list-style-position:outside;
+    list-style-position: outside;
 
     /* Textausrichtung innerhalb des Block-Elements */
     text-align: justify;    /* Blocksatz */
     vertical-align: top;    /* Oben bündig */
 
     /* Zeilenabstand */
-    line-height: 120%
+    line-height: 150%;
+}
+
+/* Vermeidung der automatischen Margin und Padding vom Browser */
+html, body{
+    margin: 0;
+    padding: 0;
 }
 
 /* === Typografie - Überschriften === */
-/* === Grundeinstellungen für die Überschriften === */
-
+/* Grundeinstellungen für die Überschriften */
 h1,h2,h3,h4,h5,h6 {
 	font-family: "Noto Serif", "Georgia", serif;
     clear: both;
@@ -87,27 +90,112 @@ h6 {
 }
 
 /* === Links === */
-
 /* Grundeinstellungen für Links */
 a{
     text-decoration: none;
-    color:#334d00 /* Farbe für Links */
+    color:#334d00; /* Farbe für Links */
 }
 
 /* Hover-Effekt für Links */
 a:hover{
     text-decoration: underline;
-    color: #151f01
+    color: #151f01;
 }
 
 /* === Header-Styling === */
+/* mithilfe von ChatGPT erstellt */
 header{
     background-color: #d8f0a8bf;    /* Hintergrundfarbe für den Header definieren */
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.5rem; /* wichtiger Abstand innen */
+    box-sizing: border-box; /* verhindert Überschreiten der Fensterbreite */
+}
+
+header h2{
+    order: 2; /* Anordnung rechts */
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+header nav{
+    order: 1; /* Anordnung links */
+    margin: 0;
+}
+
+/* === Seitennavigation-Styling (oberer Abschnitt) ===*/
+/* mithilfe von ChatGPT erstellt */
+.page-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0;
+    gap: 1rem;
+    max-width: 80ch;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem;
+}
+
+/* Titel in der Mitte */
+.page-nav h1 {
+    margin: 0;
+    text-align: center;
+    flex: 1;
+}
+
+/* Textpositionierung der Navigationslinks */
+.page-nav .prev {
+    text-align: left;
+    font-weight: bold;
+}
+
+.page-nav .next {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* Placeholder, wenn kein "Weiter" oder "Zurück" */
+/*unsichtbar, aber nimmt Platz ein */
+.page-nav .placeholder {
+    display: inline-block;
+    width: 4rem;
+    visibility: hidden;
+}
+
+/* Inhaltsbreite Begrenzung */
+article, section{
+    max-width: 80ch;
+    margin: 0 auto; /* Sammeleigenschaft für margin-left und margin-right */
+    padding: 0 1rem; /* Sammeleigenschaft für padding-left und padding-right */
+}
+
+/* Buttons-Styling */
+button{
+    background-color: #708547;
+    color: #fcfef6;
+}
+
+button:hover{
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+    background: #456504;
+}
+
+/* === Footer-Styling === */
+footer{
+    background-color:  #d8f0a8bf;  /* Hintergrundfarbe für den Footer definieren */
 }
 
 /* === Allgemeine Hilfsklassen === */
-
 /* Zentrierungsklasse für Elemente */
 .center{
-    text-align: center;    /* Zentrierung des Textes */
+    text-align: center;
 }
