@@ -1,116 +1,113 @@
 /* ===============================
-   CSS-Stylesheet
-   Letztes Update: 26.11.2025
-   Von: Marieke Eilers, Minh Thi Bui
-   ========================== */
+    CSS-Grundlagen für die Webseite
+    Letztes Update: 28.11.2025
+    Durch: Minh Thi Bui
+    ===============================*/
 
-/* ==============================
-    Farben und Typografie
-    (vorläufig für geschriebenen Text)
-    ============================= */
 
-/* Definition von Variablen */
-
-:root {
-   --text_color: rgb(51, 77, 0);
-   --text_font: "Noto Serif", serif;
-   --text_size: 20px;   /* Basis-Schriftgröße */
-   --text_margin-bottom: 25px;
-   --text_margin-left: 200px;
-   --text_margin-right: 250px;
-}
-
-/* ==============================
-    Grundlegendes zur Schrift
-    ============================= */
+/* === Globales Box-Modell === */
 
 html{
-    white-space: normal;
-    text-align: justify;
+    box-sizing: border-box; /* Box-Sizing berücksichtigt Padding und Border in der Gesamtgröße */
 }
 
-h1,h2,h3,h4,h5,h6, p, li, span, div {
-    color: var(--text_color);
-    font-family: var(--text_font);
-}
+/* === HTML und Body Grundeinstellungen === */
 
-header{
-    color: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+html{
+    font-size: 18px;    /* Grundlegende Schriftgröße für die Webseite */
+    scroll-behavior: smooth; /* Optional: Sanftes Scrollen bei Anker-Links */
 }
 
 body{
-    background-color: #e6f2e8;  /* Hintergrundfarbe der Seite */
+    background-color: #e6f2e8;  /* Hintergrundfarbe der gesamten Webseite */
+    
+    /* Grundeinstellung für die Schriftart */
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+    color:#334d00;
+
+    /* Textumbruch: Automatischer Zeilenumbruch */
+    white-space: normal;
+
+    /* Listeneinrückung: Zweite Zeile beginnt unter dem Text des ersten Listenpunkts */
+    list-style-position:outside;
+
+    /* Textausrichtung innerhalb des Block-Elements */
+    text-align: justify;    /* Blocksatz */
+    vertical-align: top;    /* Oben bündig */
+
+    /* Zeilenabstand */
+    line-height: 120%
 }
 
-p{
-    margin-bottom: var(--text_margin-bottom);
-}
-
-section{
-    h2{
-        font-style: italic;
-    }
-}
-
-
-/* ==============================
-    Überschriften-Stile
-    (Zeilenabstand, Schriftgröße der Überschriften)
-    =============================  */
+/* === Typografie - Überschriften === */
+/* === Grundeinstellungen für die Überschriften === */
 
 h1,h2,h3,h4,h5,h6 {
-	clear: both;
+	font-family: "Noto Serif", "Georgia", serif;
+    clear: both;
 	font-weight: 700;
-	margin: 56px 250px 25px 200px;
+	margin: 56px 0 28px;
 }
 
 h1 {
-	font-size: 2.5rem;
+	font-size: 2.125rem;
 	line-height: 1.2308;
 }
 
 h2 {
-	font-size: 1.8125rem; /* 29px */
+	font-size: 1.8125rem;
 	line-height: 1.2069;
 }
 
 h3 {
-	font-size: 1.5rem; /* 24px */
+	font-size: 1.5rem;
 	line-height: 1.1667;
 }
 
 h4 {
-	font-size: 1.25rem; /* 20px */
+	font-size: 1.25rem;
 	line-height: 1.4;
 }
 
 h5 {
-	font-size: 1.125rem; /* 18px */
+	font-size: 1.125rem;
 	letter-spacing: 0.1em;
 	line-height: 1.3333;
 	text-transform: uppercase;
 }
 
 h6 {
-	font-size: 1.0625rem; /* 17px */
+	font-size: 1.0625rem;
 	letter-spacing: 0.1em;
 	line-height: 1.2353;
 	text-transform: uppercase;
 }
 
-/* ========================================
- * Textumfluss
- * =======================================*/
+/* === Links === */
 
-.block {
-    display: flex;
-    justify-content: flex-start;
-    margin: 40px 200px;
+/* Grundeinstellungen für Links */
+a{
+    text-decoration: none;
+    color:#334d00 /* Farbe für Links */
 }
-.block.reverse{
-    justify-content: flex-end;
+
+/* Hover-Effekt für Links */
+a:hover{
+    text-decoration: underline;
+    color: #151f01
 }
-.block.text {
-    max-width: 600px;
-    text-align: justify;
+
+/* === Header-Styling === */
+header{
+    background-color: #d8f0a8bf;    /* Hintergrundfarbe für den Header definieren */
+}
+
+/* === Allgemeine Hilfsklassen === */
+
+/* Zentrierungsklasse für Elemente */
+.center{
+    text-align: center;    /* Zentrierung des Textes */
 }
