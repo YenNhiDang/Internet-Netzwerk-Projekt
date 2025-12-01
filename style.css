@@ -17,8 +17,9 @@ html{
 }
 
 body{
-    display: flex;
-    flex-direction: column;
+    /* Vorschlag von ChatGPT, weil Footer auf der Startseite nicht am Seitenende ist */
+    /* display: flex;
+    flex-direction: column; */
     
     background-color: #e6f2e8;  /* Hintergrundfarbe der gesamten Webseite */
     
@@ -47,7 +48,8 @@ body{
 html, body{
     margin: 0;
     padding: 0;
-    height: 100%;
+    /* Vorschlag von ChatGPT, weil Footer auf der Startseite nicht am Seitenende ist */
+    /*height: 100%;*/
 }
 
 /* === Typografie - Überschriften === */
@@ -198,7 +200,8 @@ footer {
     background-color: #d8f0a8bf;
     padding: 2rem 1rem;
     text-align: center;
-    margin-top: auto;
+    /* Vorschlag von ChatGPT, weil Footer auf der Startseite nicht am Seitenende ist */
+    /*margin-top: auto;*/
 }
 
 footer a {
