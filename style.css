@@ -17,6 +17,9 @@ html{
 }
 
 body{
+    display: flex;
+    flex-direction: column;
+    
     background-color: #e6f2e8;  /* Hintergrundfarbe der gesamten Webseite */
     
     /* Grundeinstellung für die Schriftart */
@@ -44,6 +47,7 @@ body{
 html, body{
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 /* === Typografie - Überschriften === */
@@ -194,6 +198,7 @@ footer {
     background-color: #d8f0a8bf;
     padding: 2rem 1rem;
     text-align: center;
+    margin-top: auto;
 }
 
 footer a {
