@@ -208,7 +208,13 @@ footer p {
 }
 
 /* === Allgemeine Hilfsklassen === */
-/* Zentrierungsklasse für Elemente */
+/* Zentrierungsklasse für Text */
 .center{
     text-align: center;
+}
+
+/* Zentrierungsklasse für Grafiken */
+.center-img {
+    display: block;
+    margin: 0 auto;
 }
