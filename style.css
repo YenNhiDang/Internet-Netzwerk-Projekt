@@ -1,10 +1,10 @@
 /* ===============================
     CSS-Grundlagen für die Webseite
-    Letztes Update: 28.11.2025
+    Letztes Update: 02.12.2025
     Durch: Minh Thi Bui
     ===============================*/
 
-/* === HTML und Body Grundeinstellungen === */
+/* === HTML- und Body-Grundeinstellungen === */
 html{
     font-size: 18px;    /* Grundlegende Schriftgröße für die Webseite */
     scroll-behavior: smooth; /* Optional: Sanftes Scrollen bei Anker-Links */
@@ -47,7 +47,7 @@ html, body{
     /*height: 100%;*/
 }
 
-/* === Typografie - Überschriften === */
+/* === Typografie === */
 /* Grundeinstellungen für die Überschriften */
 h1,h2,h3,h4,h5,h6 {
 	font-family: "Noto Serif", "Georgia", serif;
@@ -90,6 +90,12 @@ h6 {
 	/* text-transform: uppercase; */
 }
 
+/* Einstellungen für Bildunterschriften */
+figcaption {
+    font-size: smaller;
+    font-style: italic;
+}
+
 /* === Links === */
 /* Grundeinstellungen für Links */
 a{
@@ -117,14 +123,14 @@ header{
 }
 
 header h2{
-    order: 2; /* Anordnung rechts */
+    order: 2; /* Anordnung rechts der Überschrift im Header wegen Flexbox*/
     margin: 0;
     padding: 0;
     white-space: nowrap;
 }
 
 header nav{
-    order: 1; /* Anordnung links */
+    order: 1; /* Anordnung links der Navigation im Header wegen Flexbox*/
     margin: 0;
 }
 
@@ -142,14 +148,14 @@ header nav{
     padding: 0 1rem;
 }
 
-/* Titel in der Mitte */
+/* Titel in der Mitte (befindet sich "innerhalb" der Navigation)*/
 .page-nav h1 {
     margin: 0;
     text-align: center;
     flex: 1;
 }
 
-/* Textpositionierung der Navigationslinks */
+/* Textpositionierung des Navigationslinks (Zurück) */
 .page-nav .prev {
     text-align: left;
     font-weight: bold;
@@ -162,6 +168,7 @@ header nav{
     margin-right: 1rem;
 }
 
+/* Textpositionierung des Navigationslinks (Weiter) */
 .page-nav .next {
     text-align: right;
     font-weight: bold;
@@ -175,7 +182,7 @@ header nav{
 }
 
 /* Placeholder, wenn kein "Weiter" oder "Zurück" */
-/*unsichtbar, aber nimmt Platz ein */
+/* unsichtbar, aber nimmt Platz ein */
 .page-nav .placeholder {
     display: inline-block;
     width: 4rem;
@@ -189,7 +196,7 @@ article, section{
     padding: 0 1rem; /* Sammeleigenschaft für padding-left und padding-right */
 }
 
-/* Buttons-Styling */
+/* === Buttons-Styling === */
 button{
     background-color: #708547;
     color: #fcfef6;
@@ -234,4 +241,14 @@ footer p {
 .center-img {
     display: block;
     margin: 0 auto;
+}
+
+/* Footer-Styling - Klasse für die Zeilenabstände */
+.footer_space {
+    margin-bottom: 1rem;
+}
+
+/* Footer: Hilfsklasse zur Schriftformatierung */
+.footer_text_bold {
+    font-weight: bold;
 }
