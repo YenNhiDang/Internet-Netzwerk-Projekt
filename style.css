@@ -4,16 +4,11 @@
     Durch: Minh Thi Bui
     ===============================*/
 
-
-/* === Globales Box-Modell === */
-html{
-    box-sizing: border-box; /* Box-Sizing berücksichtigt Padding und Border in der Gesamtgröße */
-}
-
 /* === HTML und Body Grundeinstellungen === */
 html{
     font-size: 18px;    /* Grundlegende Schriftgröße für die Webseite */
     scroll-behavior: smooth; /* Optional: Sanftes Scrollen bei Anker-Links */
+    box-sizing: border-box; /* Box-Sizing berücksichtigt Padding und Border in der Gesamtgröße */
 }
 
 body{
@@ -160,9 +155,23 @@ header nav{
     font-weight: bold;
 }
 
+/* Zurück: Pfeil-Symbol anzeigen */
+.prev:before {
+    content: '\2190';
+    font-size: 1.8125rem;
+    margin-right: 1rem;
+}
+
 .page-nav .next {
     text-align: right;
     font-weight: bold;
+}
+
+/*Weiter: Pfeil-Symbol anzeigen */
+.next:after {
+    content: '\2192';
+    font-size: 1.8125rem;
+    margin-left: 1rem;
 }
 
 /* Placeholder, wenn kein "Weiter" oder "Zurück" */
