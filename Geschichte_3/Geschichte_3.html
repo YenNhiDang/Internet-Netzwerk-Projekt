@@ -15,8 +15,8 @@
     <header>
         <h2><a href="/index.html">Geschichte des Internets</a></h2>
         <nav>
-            <button>Menü</button>
-            <ul>
+            <button class="button" data-target="head-nav">Menü</button>
+            <ul id="head-nav" style="display: none;">
                 <li><a href="/index.html">Startseite</a></li>
                 <li><a href="/Geschichte_1/Geschichte_1.html">Frühphase des Internets (1957-1964)</a></li>
                 <li><a href="/Geschichte_2/Geschichte_2.html">Ausbau des Netzwerks (1965-1988)</a></li>
@@ -105,8 +105,8 @@
             <!-- Hinweis an Herrn Thomaschewski -->
             <!-- Quellen-Box wird erst in der nächsten Abgabe umgesetzt, deswegen Button ohne Funktion -->
             <nav>
-                <button id="button">Quellen</button>
-                <ul id="toggle" style="display: none;">
+                <button class="button" data-target="quellen">Quellen</button>
+                <ul id="quellen" style="display: none;">
                     <li><a href="https://info.cern.ch" target="_blank" rel="noopener">Die Infoseite des CERN</a></li>
                     <li><a href="https://de.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank" rel="noopener">Wikipedia: Timer Berners-Lee</a></li>
                     <li><a href="https://de.wikipedia.org/wiki/World_Wide_Web" target="_blank" rel="noopener">Wikipedia: World Wide Web</a></li>
