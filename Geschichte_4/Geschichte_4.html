@@ -15,8 +15,8 @@
     <header>
         <h2><a href="/index.html">Geschichte des Internets</a></h2>
         <nav>
-            <button>Menü</button>
-            <ul>
+            <button class="button" data-target="head-nav">Menü</button>
+            <ul id="head-nav" style="display: none;">
                 <li><a href="/index.html">Startseite</a></li>
                 <li><a href="/Geschichte_1/Geschichte_1.html">Frühphase des Internets (1957-1964)</a></li>
                 <li><a href="/Geschichte_2/Geschichte_2.html">Ausbau des Netzwerks (1965-1988)</a></li>
@@ -160,8 +160,8 @@
             <!-- Hinweis an Herrn Thomaschewski -->
             <!-- Quellen-Box wird erst in der nächsten Abgabe umgesetzt, deswegen Button ohne Funktion -->
             <nav>
-                <button>Quellen</button>
-                <ul>
+                <button class="button" data-target="quellen">Quellen</button>
+                <ul id="quellen" style="display: none;">
 					<li><a href="https://en.wikipedia.org/wiki/History_of_the_Internet" target="_blank" rel="noopener">Wikipedia: "History of the Internet"</a></li>
                     <li><a href="https://www.visualcapitalist.com/cp/most-popular-websites-by-web-traffic/" target="_blank" rel="noopener">Visual Capitalist: "Animation: The Most Popular Websites by Web Traffic (1993-2022)"</a></li>
                     <li><a href="https://www.fes.de/feshistory/blog/web-eins-null" target="_blank" rel="noopener">Friedrich Ebert Stiftung: Web 1.0</a></li>
@@ -195,5 +195,6 @@
             Alle Inhalte dienen ausschließlich zu Bildungszwecken.
         </p>
     </footer>
+    <script src="../script.js"></script>
 </body>
 </html

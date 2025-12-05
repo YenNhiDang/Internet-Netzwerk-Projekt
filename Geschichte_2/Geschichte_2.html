@@ -15,8 +15,8 @@
     <header>
         <h2><a href="/index.html">Geschichte des Internets</a></h2>
         <nav>
-            <button>Menü</button>
-            <ul>
+            <button class="button" data-target="head-nav">Menü</button>
+            <ul id="head-nav" style="display: none;">
                 <li><a href="/index.html">Startseite</a></li>
                 <li><a href="/Geschichte_1/Geschichte_1.html">Frühphase des Internets (1957-1964)</a></li>
                 <li><a href="/Geschichte_2/Geschichte_2.html">Ausbau des Netzwerks (1965-1988)</a></li>
@@ -100,8 +100,8 @@
             <!-- Hinweis an Herrn Thomaschewski -->
             <!-- Quellen-Box wird erst in der nächsten Abgabe umgesetzt, deswegen Button ohne Funktion -->
             <nav>
-                <button>Quellen</button>
-                <ul>
+                <button class="button" data-target="quellen">Quellen</button>
+                <ul id="quellen" style="display: none;">
                     <li><a href="https://www.computerweekly.com/de/definition/ARPANET-DARPANET" target="_blank" rel="noopener">ComputerWeekly - ARPAnet/DARPAnet</a></li>
                     <li><a href="https://www.ionos.de/digitalguide/websites/web-entwicklung/arpanet-definition-geschichte-des-internetvorgaengers/" target="_blank" rel="noopener">IONOS Digital Guide – ARPANET: Das Internet in den Kinderschuhen</a></li>
                     <li><a href="http://www.friedewald-family.de/Publikationen/ARPANET.PDF" target="_blank" rel="noopener">RWTH Aachen - Die Entstehung des ARPAnet und seiner Protokolle</a></li>
@@ -139,5 +139,6 @@
             Alle Inhalte dienen ausschließlich zu Bildungszwecken.
         </p>
     </footer>
+    <script src="../script.js"></script>
 </body>
 </html>
