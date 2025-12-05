@@ -39,6 +39,15 @@ body{
     line-height: 150%;
 }
 
+/* Einstellungen für hervorgehobenen Zahlen/Text/Wörter */
+/*ol li::marker{
+    font-weight: bold;   Auskommentiert, weil sonst alle Zahlen in Listen fett makiert werden. 
+} */
+
+.text_bold{
+    font-weight: bold;
+}
+
 /* Vermeidung der automatischen Margin und Padding vom Browser */
 html, body{
     margin: 0;
