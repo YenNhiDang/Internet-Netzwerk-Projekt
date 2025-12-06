@@ -113,42 +113,48 @@ a{
 }
 
 /* Hover-Effekt für Links */
-a:hover{
+a:hover {
     text-decoration: underline;
     color: #151f01;
 }
 
 /* === Header-Styling === */
 /* mithilfe von ChatGPT erstellt */
-header{
+header {
     background-color: #d8f0a8bf;    /* Hintergrundfarbe für den Header definieren */
     width: 100%;
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 1rem 1.5rem; /* wichtiger Abstand innen */
     box-sizing: border-box; /* verhindert Überschreiten der Fensterbreite */
+    position: relative;
 }
 
-header h2{
+header.center {
+    justify-content: center;
+}
+
+header h2 {
     order: 2; /* Anordnung rechts der Überschrift im Header wegen Flexbox*/
     margin: 0;
     padding: 0;
     white-space: nowrap;
 }
 
-header nav{
+header nav {
     order: 1; /* Anordnung links der Navigation im Header wegen Flexbox*/
     margin: 0;
 }
 
-/* Hamburger Menu */
+/* Hamburger Menu - absolut positioniert auf der linken Seite */
 .hamburger-icon-container {
   color:#334d00;
   height: 1.7em;
   width: 1.7em;
-  position: relative;
+  position: absolute;
+  left: 1.5rem;
   z-index: 99999; /* Über allem */
   cursor: pointer;
   background: currentColor;
@@ -168,15 +174,15 @@ header nav{
 }
 
 .hamburger-icon {
-  top: 0.75em
+  top: 0.75em;
 }
 
 .hamburger-icon:before {
-  top: -0.55em
+  top: -0.55em;
 }
 
 .hamburger-icon:after {
-  top: 0.55em
+  top: 0.55em;
 }
 
 /* Sidebar */
@@ -205,12 +211,12 @@ header nav{
 
 .hamburger-active .hamburger-icon {
   background: transparent;
-  transform: rotate(-135deg)
+  transform: rotate(-135deg);
 }
 
 .hamburger-active .hamburger-icon:before,
 .hamburger-active .hamburger-icon:after {
-  top: 0
+  top: 0;
 }
 
 .hamburger-active .hamburger-icon:before {
@@ -273,19 +279,19 @@ header nav{
 }
 
 /* Inhaltsbreite Begrenzung */
-article, section{
+article, section {
     max-width: 80ch;
     margin: 0 auto; /* Sammeleigenschaft für margin-left und margin-right */
     padding: 0 1rem; /* Sammeleigenschaft für padding-left und padding-right */
 }
 
 /* === Buttons-Styling === */
-button{
+button {
     background-color: #708547;
     color: #fcfef6;
 }
 
-button:hover{
+button:hover {
     transform: translateY(-2px);
 }
 
@@ -316,7 +322,7 @@ footer p {
 
 /* === Allgemeine Hilfsklassen === */
 /* Zentrierungsklasse für Text */
-.center{
+.center {
     text-align: center;
 }
 
