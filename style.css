@@ -143,6 +143,80 @@ header nav{
     margin: 0;
 }
 
+/* Hamburger Menu */
+.hamburger-icon-container {
+  color:#334d00;
+  height: 1.7em;
+  width: 1.7em;
+  position: relative;
+  z-index: 99999; /* Über allem */
+  cursor: pointer;
+  background: currentColor;
+  border:10px solid currentColor;
+  border-radius: 3px;
+}
+
+.hamburger-icon,
+.hamburger-icon:before,
+.hamburger-icon:after {
+  content: '';
+  position: absolute;
+  height: 3px;
+  width: 1.7em;
+  background: white;
+  transition: all .2s ease;
+}
+
+.hamburger-icon {
+  top: 0.75em
+}
+
+.hamburger-icon:before {
+  top: -0.55em
+}
+
+.hamburger-icon:after {
+  top: 0.55em
+}
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    background: #d8f0a8ff; 
+    color: #334d00;
+    padding: 60px;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+/* Sidebar sichtbar */
+.sidebar.open {
+    transform: translateX(0);
+}
+
+/* Darstellung wenn das Close-Icon angezeigt werden soll*/
+.hamburger-active .hamburger-icon-container {
+  color:#334d00;
+}
+
+.hamburger-active .hamburger-icon {
+  background: transparent;
+  transform: rotate(-135deg)
+}
+
+.hamburger-active .hamburger-icon:before,
+.hamburger-active .hamburger-icon:after {
+  top: 0
+}
+
+.hamburger-active .hamburger-icon:before {
+  transform: rotate(90deg)
+}
+
 /* === Seitennavigation-Styling (oberer Abschnitt) ===*/
 /* mithilfe von ChatGPT erstellt */
 .page-nav {
